@@ -1,0 +1,28 @@
+package item02;
+
+// JavaBeans Pattern - allows inconsistency, mandates mutability
+public class NutritionFactsBeans {
+    private int servingSize = -1; // Requiered; no default value
+    private int servings = -1; // Requiered; no default value
+    private int calories = 0;
+    private int fat = 0;
+    private int sodium = 0;
+    private int carbohydrate = 0;
+
+    public NutritionFactsBeans() {}
+
+    // Setters
+    public void setServingSize(int val) {servingSize = val;}
+    public void setServings(int val) {servings = val;}
+    public void setCalories(int val) {calories = val;}
+    public void setFat(int val) {fat = val;}
+    public void setSodium(int val) {sodium = val;}
+    public void setCarbohydrate(int val) {carbohydrate = val;}
+
+    public static void main (String[] args){
+        
+    }
+
+}
+
+

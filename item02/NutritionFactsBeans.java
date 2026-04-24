@@ -20,7 +20,12 @@ public class NutritionFactsBeans {
     public void setCarbohydrate(int val) {carbohydrate = val;}
 
     public static void main (String[] args){
-        
+        NutritionFactsBeans cocaCola = new NutritionFactsBeans();
+        cocaCola.setServingSize(240);
+        cocaCola.setServings(8);
+        cocaCola.setCalories(100);
+        cocaCola.setSodium(35);
+        cocaCola.setCarbohydrate(27);
     }
 
 }

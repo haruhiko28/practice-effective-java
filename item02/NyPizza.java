@@ -1,7 +1,6 @@
 package item02;
 
 import java.util.Objects;
-import item02.Pizza;
 
 public class NyPizza extends Pizza {
     public enum Size {SMALL, MEDIUM, LARGE}

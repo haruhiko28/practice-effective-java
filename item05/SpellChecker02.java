@@ -2,6 +2,7 @@ package item05;
 
 import java.util.List;
 
+// Inappropriate use of singleton - inflexible & unstestable! 
 public class SpellChecker02 {
     private final Lexicon dictionary = new Lexicon();
 
